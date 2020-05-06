@@ -1,0 +1,33 @@
+<div class="d-flex justify-content-center align-items-center mt-2 ml-3 sidebar">
+    <i class="fa fa-map-marker fa-2x logo" aria-hidden="true" ></i>
+    <a class="navbar-brand logotit" href="index.html" > Places Colombia</a>
+</div>
+<div class="container">
+    <!--
+        Contenedor con los botones del aside que se encargarán de traer la información
+        de la API, según la categoría seleccionada
+    -->
+    <div class="column" (click)="datosPlace($event)">
+
+            <div class="col d-flex justify-content-center mt-4 mb-3 mensaje">
+                ¿Que establecimiento que desea visualizar?
+            </div>
+            <div class="col d-flex justify-content-center mt-4">
+                <button mat-button class="btn btn-light btns" id="restaurantes" > 
+                    <i class="fas fa-utensils"></i> Restaurantes
+                </button>
+            </div>
+            <div class="col d-flex justify-content-center mt-4">
+                <button type="button" class="btn btn-danger btns" id="gasolineras"> 
+                    <i class="fas fa-gas-pump"></i> Gasolineras
+                </button>
+            </div>
+            <div class="col d-flex justify-content-center mt-4">
+                <button type="button" class="btn btn-primary btns" id="aeropuertos" > 
+                    <i class="fas fa-plane"></i> Aeropuertos
+                </button>
+            </div>
+    </div>
+    
+</div>
+

@@ -1,0 +1,10 @@
+#mapa{
+    width: 73%;
+    position: absolute;
+    left: 25.4%;
+    height: 76%;
+    box-shadow: black 1px 1px 4px;
+    border: black 1px solid;
+    margin-left: .5rem;
+    margin-right: 2px;
+}

@@ -1,0 +1,16 @@
+.navb{
+    width: 99.1%;
+    box-shadow: black 1px 1px 4px;
+    margin-left: 5px;
+}
+
+.logoimg{
+    background: url('../../images/urban.jpg');
+    background-size: cover;
+    background-position: fixed;
+    background-attachment: contain;
+    width: 100%;
+    height: 7rem;
+    opacity: 0.85;
+    padding-left: 2px;
+}

@@ -1,0 +1,39 @@
+.sidebar{
+    border-bottom: gray 1px solid;
+    margin-bottom: 3rem;
+    width: 90%;
+}
+.logo{
+    color: crimson;
+    padding: 0 .9rem;
+    height: 100%;
+    text-shadow: whitesmoke -1px -1px 3px;
+}
+.logotit{
+    font-size: 2rem;
+    color: whitesmoke;
+    font-family: 'Cabin Sketch', cursive;
+    text-shadow: #f5f5f5ab -1px -1px 3px;
+    padding-top: 18px;
+}
+.mensaje{
+    color: whitesmoke;
+}
+i{
+    padding-right: 1rem;
+}
+.btns{
+    width: 90%;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+}
+.busqueda{
+    height: 11rem;
+}
+.busqueda2{
+    height: 0;
+    margin-bottom: 6rem;
+}
+.search{
+    border: #413c69 1px solid;
+}
